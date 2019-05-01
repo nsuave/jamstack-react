@@ -28,7 +28,7 @@ $ docker run --name jamstack-db -d -p 27017:27017 mongo:latest mongod --bind_ip_
 $ docker run --name jamstack-api -d -p 8008:8008 --link jamstack-db:mongo nsuave/jamstack-api
 
 # Start Docker Image for React
-$ 
+$ docker run --name jamstack-react -d -p 3000:3000 nsuave/jamstack-react
 ```
 
 ## Reference guides
