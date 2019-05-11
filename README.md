@@ -31,6 +31,11 @@ $ docker run --name jamstack-api -d -p 8008:8008 --link jamstack-db:mongo nsuave
 $ docker run --name jamstack-react -d -p 3000:3000 nsuave/jamstack-react
 ```
 
+## Quick Start - Docker Compose
+```
+$ docker-compose up -d
+```
+
 ## Reference guides
 https://scotch.io/tutorials/5-most-common-dropdown-use-cases-solved-with-react-downshift
 https://codesandbox.io/s/1rj327v2jj
