@@ -1,0 +1,14 @@
+version: '3'
+services:
+  mongo:
+    image: "mongo:latest"
+    ports:
+     - "27017:27017"
+  api:
+    image: "nsuave/jamstack-api"
+    ports:
+     - "8008:8008"
+  web:
+    image: "nsuave/jamstack-react"
+    ports:
+     - "3000:3000"
